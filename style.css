@@ -106,3 +106,20 @@ video {
 
   color: #cfcfcf;
 }
+.video-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .video-grid video {
+        width: 50%;
+        max-width: 500px;
+        border-radius: 16px;
+    }
+.video-description {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #cfcfcf;
+}
